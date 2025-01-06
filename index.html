@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header parce que c'est joli -->
+    <header class="navbar">
+        <div class="topPart">
+            <h2 class="pageTitle">Tic Tac Toe game</h2>
+        </div>
+        <div class="botPart">
+            <!-- J'aurai le nom du joueur précisement à qui c'est le tour ici -->
+            <h3 class="playerTurn">'s turn</h3>
+        </div>
+    </header>
+
+
+    <!-- board, contenant 9 éléments grid -->
+    <main class="board">
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+    </main>
+
+
+    <!-- controles qui permettent de donner en input le nom des joueurs, ainsi que de lancer ou relancer une partie -->
+    <div class="controls">
+        <input type="text" id="player1" placeholder="Player 1 Name">
+        <input type="text" id="player2" placeholder="Player 2 Name">
+        <button id="start">Start Game</button>
+        <button id="restart">Restart Game</button>
+    </div>
+
+
+    <!-- div qui me servira à afficher le gagnant dans le futur, et aussi le récapitulatif des scores -->
+    <div class="resultDisplay"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
