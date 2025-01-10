@@ -21,3 +21,28 @@ header h3{
     font-size: 3rem;
     font-style: italic;
 }
+
+main.board{
+    margin-top: 2rem;
+    justify-self: center;
+    width:20%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.board button{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+.controls{
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+    gap:3px;
+}
