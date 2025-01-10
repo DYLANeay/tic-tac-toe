@@ -1,7 +1,9 @@
 # tic-tac-toe
 
-Projet conséquent, principalement en Javascript. Ce projet m'a vraiment sorti de ma zone de connaissance, j'ai pu apprendre beaucoup de choses en lien avec le comportement des fonctions notamment, et ait pu consolider mes aptitudes de base. 
+This was a substantial project, primarily in JavaScript. It really pushed me out of my comfort zone, allowing me to learn a lot about function behavior and solidify my foundational skills.
 
-La logique derrière n'était pas simple dès le départ, ce qui m'a sûrement couté du temps en chemin. J'ai aussi ajouté le fait que le joueur qui commence est aléatoire, auquel cas le jeu devient vraiment trop à l'avantage du premier à jouer. 
+The logic behind it wasn't straightforward from the start, which likely cost me some time along the way. I also added the feature where the starting player is randomized. Otherwise, the game would be heavily biased towards the first player.
 
-SKILLS : HTML, CSS (strict minimum), JS, Débuggueur (beaucoup)
+Skills: HTML, CSS (basic), JavaScript, Debugging (a lot)
+
+
