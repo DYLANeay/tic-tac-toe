@@ -46,3 +46,10 @@ main.board{
     justify-content: center;
     gap:3px;
 }
+
+.resultDisplay{
+    font-size: 2rem;
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+}
